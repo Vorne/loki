@@ -1,4 +1,5 @@
 include Makefile.common
+include Makefile.version
 
 .PHONY: all build-static build-shared check clean distclean
 all: build-static build-shared check
