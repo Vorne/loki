@@ -125,7 +125,7 @@ namespace Loki
                 , destroyer_(d)
             {}
             
-            ~ConcreteLifetimeTracker()
+            virtual ~ConcreteLifetimeTracker()
             { destroyer_(pTracked_); }
             
         private:
